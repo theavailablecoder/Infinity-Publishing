@@ -102,7 +102,7 @@ h6,
 }
 
 .upper-header.bg-light {
-  background-color: #92278f !important;
+  background-color: #2F36A0 !important;
 }
 
 .upper-header .contact-info span {
@@ -175,9 +175,12 @@ h6,
   transition: 0.5s;
 }
 
+
 .navbar-brand img {
-  width: 110px;
-}
+  width: 150px;
+  height: auto;
+  display: block;
+} 
 
 .navbar .dropdown-toggle::after {
   border: none;
@@ -424,7 +427,7 @@ h6,
 /*** Team ***/
 /* Blog Section Styles */
 .blog-section {
-  background-color: #a154a1;
+  background-color: #2F36A0;
   padding: 50px 20px;
   text-align: center;
 }

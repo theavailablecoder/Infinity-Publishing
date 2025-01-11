@@ -3655,6 +3655,7 @@ fieldset:disabled .btn {
   display: block;
 }
 .navbar {
+ 
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -3670,19 +3671,21 @@ fieldset:disabled .btn {
 .navbar > .container-lg,
 .navbar > .container-xl,
 .navbar > .container-xxl {
+ 
   display: flex;
   flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
 }
 .navbar-brand {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+
+  margin-top: -20px;
   margin-right: 1rem;
   font-size: 1.25rem;
   white-space: nowrap;
 }
 .navbar-nav {
+
   display: flex;
   flex-direction: column;
   padding-left: 0;
